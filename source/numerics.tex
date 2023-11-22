@@ -14616,7 +14616,7 @@ If \tcode{InMat1} has \tcode{layout_blas_packed} layout,
 then the layout's \tcode{Triangle} template argument has
 the same type as the function's \tcode{Triangle} template argument; and
 \item
-\tcode{\exposid{compatible-static-extents}<InMat1, InMat1>(0, 1)}.
+\tcode{\exposid{compatible-static-extents}<InMat1, InMat1>(0, 1)} is \tcode{true}.
 \end{itemize}
 
 \pnum
@@ -14668,7 +14668,7 @@ If \tcode{InMat2} has \tcode{layout_blas_packed} layout,
 then the layout's \tcode{Triangle} template argument has
 the same type as the function's \tcode{Triangle} template argument; and
 \item
-\tcode{\exposid{compatible-static-extents}<InMat2, InMat2>(0, 1)}.
+\tcode{\exposid{compatible-static-extents}<InMat2, InMat2>(0, 1)} is \tcode{true}.
 \end{itemize}
 
 \pnum
@@ -14726,7 +14726,7 @@ If \tcode{InMat1} has \tcode{layout_blas_packed} layout, then the
       layout's \tcode{Triangle} template argument has the same type as
       the function's \tcode{Triangle} template argument; and
 \item
-\tcode{\exposid{compatible-static-extents}<InMat1, InMat1>(0, 1)}.
+\tcode{\exposid{compatible-static-extents}<InMat1, InMat1>(0, 1)} is \tcode{true}.
 \end{itemize}
 
 \pnum
@@ -14789,7 +14789,7 @@ If \tcode{InMat2} has \tcode{layout_blas_packed} layout,
 then the layout's \tcode{Triangle} template argument has
 the same type as the function's \tcode{Triangle} template argument; and
 \item
-\tcode{\exposid{compatible-static-extents}<InMat2, InMat2>(0, 1)}.
+\tcode{\exposid{compatible-static-extents}<InMat2, InMat2>(0, 1)} is \tcode{true}.
 \end{itemize}
 
 \pnum
@@ -14838,7 +14838,7 @@ the same type as the function's \tcode{Triangle} template argument;
 \tcode{\exposid{possibly-multipliable}<InMat, InOutMat, InOutMat>()}
 is \tcode{true}; and
 \item
-\tcode{\exposid{compatible-static-extents}<InMat, InMat>(0, 1)}.
+\tcode{\exposid{compatible-static-extents}<InMat, InMat>(0, 1)} is \tcode{true}.
 \end{itemize}
 
 \pnum
@@ -14881,7 +14881,7 @@ the same type as the function's \tcode{Triangle} template argument;
 \tcode{\exposid{possibly-multipliable}<InOutMat, InMat, InOutMat>()}
 is \tcode{true}; and
 \item
-\tcode{\exposid{compatible-static-extents}<InMat, InMat>(0,1)}.
+\tcode{\exposid{compatible-static-extents}<InMat, InMat>(0, 1)} is \tcode{true}.
 \end{itemize}
 
 \pnum
@@ -15332,7 +15332,7 @@ the same type as the function's \tcode{Triangle} template argument;
 \tcode{\exposid{possibly-multipliable}<InMat, InOutMat, InOutMat>()}
 is \tcode{true}; and
 \item
-\tcode{\exposid{compatible-static-extents}<InMat, InMat>(0,1)}
+\tcode{\exposid{compatible-static-extents}<InMat, InMat>(0, 1)}
 is \tcode{true}.
 \end{itemize}
 
